@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container {
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* justify-content: center; */
+            /* align-items: stretch; */
+            /* flex-flow: column wrap; */
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+            /* align-items: center; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row; */
+            /* flex-direction: column; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-between; */
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            margin: 10px;
+            padding: 3px;
+            border: 2px solid green;
+
+        }
+
+        #item-1 {
+        /* order: 1; */
+        
+        }
+
+        #item-2 {
+        /* flex-grow: 3; */
+        /* flex-shrink: 3; */
+        }
+
+        #item-3 {
+/* align-self: center; */
+/* align-self: flex-end; */
+/* align-self: start; */
+/* flex: 2 2 160px; */
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a flexbox</h1>
+    <div class="container">
+        <div class="item" id="item-1">First box Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque molestias non ipsa! Cumque voluptas doloremque eaque deserunt laborum, exercitationem in quisquam similique commodi sunt dolorum, a odio maxime veniam?</div>
+        <div class="item" id="item-2">Second box Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem aliquam officia quo fuga. Harum laborum alias minima iusto officia deserunt sapiente libero ea? Tempore hic earum modi cum aspernatur.</div>
+        <div class="item" id="item-3">Third box Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium necessitatibus repellendus libero, eum esse, nihil perspiciatis officiis eius quibusdam nisi earum cumque veritatis dignissimos consectetur facere ipsa minima nulla!</div>
+        <!-- <div class="item" id="item-4">Fourth box</div>
+        <div class="item" id="item-5">Fifth box</div>
+        <div class="item" id="item-6">Sixth box</div> -->
+    </div>
+</body>
+
+</html>
