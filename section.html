@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
+
+        .heading {
+        text-align: center;
+        font-weight: 700;
+        }
+.card{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: large;
+    width: 331px;
+    height: 360px;
+    word-wrap:break-word 
+}
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+        #card-1 {
+            border: 1px solid black;
+            background-color: #fff;
+            margin: 12px;
+            padding: 22px;
+            border-radius: 22px;
+            
+            
+        }
+
+        #card-2 {
+            border: 1px solid black;
+            background-color: #fff;
+            margin: 12px;
+            padding: 22px;
+            border-radius: 22px;
+        }
+
+        #card-3 {
+            
+            margin: 12px;
+            padding: 22px;
+            border-radius: 22px;
+            border: 1px solid black;
+            background-color: #fff
+        }
+        .btn{
+            background-color: rgb(50, 144, 252);
+            color: white;
+            padding: 12px;
+            margin-top: 22px;
+            border-radius: 12px;
+            border: 1px solid white;
+        }
+        .btn:hover{
+            color: rgb(6, 8, 10);
+            transition: 2.99s;
+        }
+        .features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li {
+    border-bottom: 1px solid #000000;
+    padding: 8px 0;
+}
+
+.features li:last-child {
+    border-bottom: none;
+}
+.price{
+    font-weight: 500;
+    font-size: xx-large;
+    color: rgb(80, 156, 243);
+}
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">Ours plan</h1>
+
+    <div class="container">
+
+        <div class="card" id="card-1">
+            <h2>standard</h2>
+            <p class="price">40$</p>
+            <ul class="features">
+                <li>Limited users</li>
+                <li>50GB Storage</li>
+                <li>24/7 support</li>
+            </ul>
+            <button class="btn">Choose Plan</button>
+        </div>
+        <div class="card" id="card-2">
+            <h2>Delux</h2>
+            <p class="price">90$</p>
+            <ul class="features">
+                <li>17 users</li>
+                <li>100GB Storage</li>
+                <li>24/7 support</li>
+            </ul>
+            <button class="btn">Choose Plan</button>
+        </div>
+        <div class="card" id="card-3">
+            <h2>premium</h2>
+            <p class="price">150$</p>
+            <ul class="features">
+                <li>Unlimited users</li>
+                <li>1TB Storage</li>
+                <li>24/7 support</li>
+            </ul>
+            <button class="btn">Choose Plan</button>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

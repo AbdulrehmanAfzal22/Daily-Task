@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box navbar</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+        .main {
+            background-color: rgb(56, 55, 55);
+            display: flex;
+            justify-items: center;
+            flex-direction: column;
+            color: #fff;
+            padding: 2px 22px;  
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .logo {
+            font-weight: bolder;
+            font-size: 22px;
+            align-items: center;
+            color: #fff;
+            float: left;
+        }
+        /* .nav-links{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:rgb(56, 55, 55);
+      padding: 12px;
+      
+    } */
+
+        .nav-links ul {
+      display: flex;
+      list-style: none;
+    }
+
+    .nav-links ul li {
+      margin:15px;
+    }
+
+    .nav-links ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .nav-links ul li a:hover {
+      text-decoration: underline;
+      color: salmon;
+      transition: 4s ease-out;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+
+        <div class="logo">My site</div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
